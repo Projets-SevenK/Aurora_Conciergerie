@@ -394,13 +394,18 @@ img {
   }
 
   .about-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
   }
 
   .about-image {
-    order: -1;
+    order: 2;
     text-align: center;
+  }
+
+  .about-text {
+    order: 1;
   }
 
   .section-title {
